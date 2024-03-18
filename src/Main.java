@@ -2,14 +2,37 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Pessoa pessoa1 = new Pessoa();
+        System.out.println(pessoa1);
+        pessoa1.nome = "Alice";
+        pessoa1.sobrenome = "Medeiros da Silva";
+        pessoa1.idade = 21;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        pessoa1.exibirDetalhes();
+
+        Pessoa pessoa2 = new Pessoa();
+        System.out.println(pessoa2);
+        pessoa2.nome = "Fernando";
+        pessoa2.sobrenome = "De Souza Cossa";
+        pessoa2.idade = 28;
+
+        pessoa2.exibirDetalhes();
+
+        PessoaFisica pessoaFisica1 = new PessoaFisica();
+
+        System.out.println(pessoa1);
+        pessoaFisica1.nome = "Alice";
+        pessoaFisica1.sobrenome = "Medeiros da Silva";
+        pessoaFisica1.idade = 21;
+        pessoaFisica1.cpf = "107.424.709-46";
+        pessoaFisica1.exibirDetalhes();
+
+        PessoaJuridica pessoaJuridica1 = new PessoaJuridica();
+        pessoaJuridica1.nome = "Alice";
+        pessoaJuridica1.sobrenome = "Medeiros da Silva";
+        pessoaJuridica1.idade = 21;
+        pessoaJuridica1.cnpj = "10.333.971/0001-07";
+        pessoaJuridica1.exibirDetalhes();
+
     }
 }
