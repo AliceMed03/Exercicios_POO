@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6e08483-c963-4f70-88ca-71bfe117cb58" name="Changes" comment="Second Commit">
-      <change afterPath="$PROJECT_DIR$/src/Contador/Contador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contador/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Relogio/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Relogio/Relogio.java" afterDir="false" />
+    <list default="true" id="f6e08483-c963-4f70-88ca-71bfe117cb58" name="Changes" comment="Novo exercício">
+      <change afterPath="$PROJECT_DIR$/src/Retangulo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Retangulo/Retangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +40,17 @@
     "Application.Contador.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Relogio.Main.executor": "Run",
+    "Application.Retangulo.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/alice_silva4/IdeaProjects/POO/src/Main.java"
+    "last_opened_file_path": "C:/Users/alice_silva4/IdeaProjects/POO",
+    "onboarding.tips.debug.path": "C:/Users/alice_silva4/IdeaProjects/POO/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Relogio.Main">
+  <component name="RunManager" selected="Application.Retangulo.Main">
     <configuration name="Batalha.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Batalha.Main" />
       <module name="POO" />
@@ -89,13 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="POO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Relogio.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Relogio.Main" />
       <module name="POO" />
@@ -109,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Retangulo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Retangulo.Main" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Retangulo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Retangulo.Main" />
         <item itemvalue="Application.Relogio.Main" />
         <item itemvalue="Application.Contador.Main" />
         <item itemvalue="Application.Calculadora.Main" />
         <item itemvalue="Application.Batalha.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710802190614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Novo exercício">
+      <option name="closed" value="true" />
+      <created>1710808856137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710808856137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Novo exercício" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novo exercício" />
   </component>
 </project>
