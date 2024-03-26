@@ -15,5 +15,18 @@ public class Main {
 
         pug.exibirDetalhes();
 
+        System.out.println("Digite o nome do gato:");
+        nome = leia.next();
+        System.out.println("Idade:");
+        idade = leia.nextInt();
+
+        Gato garfield = new Gato(nome,idade);
+
+        System.out.println("Digite o som do gato:");
+        String som = leia.next();
+
+        garfield.emitirSom(som);
+        garfield.exibirDetalhes();
+
     }
 }
