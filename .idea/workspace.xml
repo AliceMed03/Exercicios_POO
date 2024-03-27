@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6e08483-c963-4f70-88ca-71bfe117cb58" name="Changes" comment="Interface animal">
-      <change afterPath="$PROJECT_DIR$/src/Animal/Gato.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ContaBancaria/ContaBancaria.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ContaBancaria/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estudante/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estudante/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Pessoa/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Pessoa/Pessoa.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Produto/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Produto/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +47,10 @@
     "Application.Calculadora.Main.executor": "Run",
     "Application.ContaBancaria.Main.executor": "Run",
     "Application.Contador.Main.executor": "Run",
+    "Application.Estudante.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Pessoa.Main.executor": "Run",
+    "Application.Produto.Main.executor": "Run",
     "Application.Relogio.Main.executor": "Run",
     "Application.Retangulo.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -60,7 +62,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Animal.Main">
+  <component name="RunManager" selected="Application.Produto.Main">
     <configuration name="Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal.Main" />
       <module name="POO" />
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Carro.Main" />
+    <configuration name="Estudante.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Estudante.Main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Carro.*" />
+          <option name="PATTERN" value="Estudante.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Retangulo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Retangulo.Main" />
+    <configuration name="Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Produto.Main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Retangulo.*" />
+          <option name="PATTERN" value="Produto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Produto.Main" />
+        <item itemvalue="Application.Estudante.Main" />
         <item itemvalue="Application.Animal.Main" />
         <item itemvalue="Application.ContaBancaria.Main" />
         <item itemvalue="Application.Pessoa.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Retangulo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711406581466</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Interface animal">
+      <option name="closed" value="true" />
+      <created>1711411957398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711411957398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
