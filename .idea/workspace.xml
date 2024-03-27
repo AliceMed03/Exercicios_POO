@@ -62,7 +62,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Produto.Main">
+  <component name="RunManager" selected="Application.Pessoa.Main">
     <configuration name="Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal.Main" />
       <module name="POO" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pessoa.Main" />
         <item itemvalue="Application.Produto.Main" />
         <item itemvalue="Application.Estudante.Main" />
         <item itemvalue="Application.Animal.Main" />
         <item itemvalue="Application.ContaBancaria.Main" />
-        <item itemvalue="Application.Pessoa.Main" />
       </list>
     </recent_temporary>
   </component>
