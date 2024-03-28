@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6e08483-c963-4f70-88ca-71bfe117cb58" name="Changes" comment="Interface animal">
-      <change afterPath="$PROJECT_DIR$/src/ContaBancaria/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaBancaria/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estudante/Estudante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estudante/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produto/Produto.java" afterDir="false" />
+    <list default="true" id="f6e08483-c963-4f70-88ca-71bfe117cb58" name="Changes" comment="Atividade Pessoa">
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Animal/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Contador/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Contador/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Funcionario/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Funcionario/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Pet/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Avaliacao/Pet/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Animal.Main.executor": "Run",
+    "Application.Avaliacao.Animal.main.executor": "Run",
+    "Application.Avaliacao.Contador.main.executor": "Run",
+    "Application.Avaliacao.Pet.main.executor": "Run",
     "Application.Batalha.Main.executor": "Run",
     "Application.Calculadora.Main.executor": "Run",
     "Application.ContaBancaria.Main.executor": "Run",
@@ -53,6 +56,7 @@
     "Application.Produto.Main.executor": "Run",
     "Application.Relogio.Main.executor": "Run",
     "Application.Retangulo.Main.executor": "Run",
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -62,13 +66,13 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Pessoa.Main">
-    <configuration name="Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Animal.Main" />
+  <component name="RunManager" selected="Application.Avaliacao.Animal.main">
+    <configuration name="Avaliacao.Animal.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avaliacao.Animal.main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Animal.*" />
+          <option name="PATTERN" value="Avaliacao.Animal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContaBancaria.Main" />
+    <configuration name="Avaliacao.Contador.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avaliacao.Contador.main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ContaBancaria.*" />
+          <option name="PATTERN" value="Avaliacao.Contador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Estudante.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Estudante.Main" />
+    <configuration name="Avaliacao.Pet.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avaliacao.Pet.main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Estudante.*" />
+          <option name="PATTERN" value="Avaliacao.Pet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Produto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Produto.Main" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Avaliacao.Funcionario.main" />
       <module name="POO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Produto.*" />
+          <option name="PATTERN" value="Avaliacao.Funcionario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Avaliacao.Animal.main" />
+        <item itemvalue="Application.Avaliacao.Pet.main" />
+        <item itemvalue="Application.Avaliacao.Contador.main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Pessoa.Main" />
-        <item itemvalue="Application.Produto.Main" />
-        <item itemvalue="Application.Estudante.Main" />
-        <item itemvalue="Application.Animal.Main" />
-        <item itemvalue="Application.ContaBancaria.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +214,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711411957398</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Atividade ContaBancaria">
+      <option name="closed" value="true" />
+      <created>1711579524576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711579524576</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Atividade Estudante">
+      <option name="closed" value="true" />
+      <created>1711579545032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711579545032</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atividade Produto">
+      <option name="closed" value="true" />
+      <created>1711579562344</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711579562344</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Atividade Pessoa">
+      <option name="closed" value="true" />
+      <created>1711580473453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711580473453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +266,10 @@
     <MESSAGE value="Exercício retângulo" />
     <MESSAGE value="Exercício carro" />
     <MESSAGE value="Interface animal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface animal" />
+    <MESSAGE value="Atividade ContaBancaria" />
+    <MESSAGE value="Atividade Estudante" />
+    <MESSAGE value="Atividade Produto" />
+    <MESSAGE value="Atividade Pessoa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade Pessoa" />
   </component>
 </project>
